@@ -1,0 +1,12 @@
+For Graphics and System configuration
+......................................
+sudo lspci
+
+
+Steps to insta git :
+...................................
+1. sudo apt-get install git
+2. git config –global user.name “your_username”
+3. git config –global user.email “your_emailid”
+
+
