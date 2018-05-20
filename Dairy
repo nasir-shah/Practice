@@ -3,10 +3,23 @@ For Graphics and System configuration
 sudo lspci
 
 
-Steps to insta git :
+Steps to install git :
 ...................................
 1. sudo apt-get install git
 2. git config –global user.name “your_username”
 3. git config –global user.email “your_emailid”
+4. mkdir myproject
+5 .cd myproject
+6 git init
+7 git remote add origin  https://github.com/your_username/myproject.git
+8 git add helloworld.c  or git add . (for more then one file)
+9 git commit -m ‘your_message’
+10 git push origin master  (push the changes and to see what is pushed)
+
+done 
+
+to pull the changes 
+
+11. git pull origin master
 
 
